@@ -108,4 +108,4 @@ if __name__ == "__main__":
     import os
     # Render에서 제공하는 포트 번호를 자동으로 잡도록 설정
     port = int(os.environ.get("PORT", 8000))
-    mcp.run(transport="sse", host="0.0.0.0", port=port)
+    mcp.run(transport="sse", port=port)
